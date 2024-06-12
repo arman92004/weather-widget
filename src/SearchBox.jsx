@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 export default function SearchBox({ updateInfo }) {
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
-    let API_URL = "http://api.openweathermap.org/data/2.5/weather";
+    let API_URL = "https://api.openweathermap.org/data/2.5/weather";
     let API_KEY = "ca6ffc264789989329047b8e50c4176e";
     let GEO_API_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
