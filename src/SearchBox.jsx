@@ -7,7 +7,7 @@ export default function SearchBox({ updateInfo }) {
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
     let API_URL = "https://api.openweathermap.org/data/2.5/weather";
-    let API_KEY = "ca6ffc264789989329047b8e50c4176e";
+    let API_KEY = "293c4cbd5b831e3b04f92f7f4934901c";
     let GEO_API_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
     let getWeatherInfo = async (cityName) => {
